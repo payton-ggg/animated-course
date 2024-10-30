@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
@@ -93,7 +94,7 @@ const Services = () => {
             побачити майбутнє людства і, можливо, надихнутись на власний
             науковий шлях.
           </p>
-          <button>Go</button>
+          <button className="last-child">Go</button>
         </motion.div>
         {/* <motion.div
           className="box"

@@ -125,6 +125,12 @@
 
       p {
         @include mobile {
+          // display: none;
+          font-size: small;
+        }
+      }
+      .last-child {
+        @include mobile {
           display: none;
         }
       }
