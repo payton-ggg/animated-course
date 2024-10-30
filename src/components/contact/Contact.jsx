@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
@@ -55,18 +56,28 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s study together</motion.h1>
+        <motion.h1 variants={variants}>
+          Напишіть або зателефонуйте мені
+        </motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
-          <span>@platon.com</span>
+          <h2>Telegram</h2>
+          <span>@akira_oyh</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>Hello street </span>
+          <h2>
+            <a href="https://www.instagram.com/introduction_to_astrophysics/">
+              Instagram
+            </a>
+          </h2>
+          <span>
+            <a href="https://www.instagram.com/introduction_to_astrophysics/">
+              Introduction to Astrophysics
+            </a>
+          </span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+380 50 965 4719</span>
+          <span>+380 (98) 581 70 78</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -99,7 +110,7 @@ const Contact = () => {
             />
           </svg>
         </motion.div>
-        <motion.form
+        {/* <motion.form
           ref={formRef}
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
@@ -112,7 +123,7 @@ const Contact = () => {
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
-        </motion.form>
+        </motion.form> */}
       </div>
     </motion.div>
   );

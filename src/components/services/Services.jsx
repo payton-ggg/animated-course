@@ -38,7 +38,7 @@ const Services = () => {
       <motion.div className="textContainer" variants={variants}>
         <p>
           Я зосереджена на тому, щоб допомогти дітям
-          <br /> рости і рухатися вперед
+          <br /> рости і розвиватися
         </p>
         <hr />
       </motion.div>
