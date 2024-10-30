@@ -30,19 +30,19 @@ const items = [
   {
     id: 5,
     title: "Чорні діри та загадки Всесвіту",
-    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730238315/xzil8clpf6sfuu2idlef.jpg",
+    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730307513/grrjn4s0mkrv9ct43qts.jpg",
     desc: "Розглянемо чорні діри, їхню структуру, як вони утворюються і викривлюють простір і час. Учні дізнаються, чому ці об'єкти унікальні та загадкові.",
   },
   {
     id: 6,
     title: "Космічні подорожі та майбутнє людства",
-    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730238315/xzil8clpf6sfuu2idlef.jpg",
-    desc: "Обговоримо сучасні та майбутні космічні місії, можливості освоєння Марсу, технології космічних подорожей і труднощі колонізації інших планет.",
+    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730307480/iksg0gwvbc93fixdjciw.jpg",
+    desc: "Обговоримо сучасні та майбутні космічні місії, можливості освоєння Марсу, технології космічних подорожей і труднощі колонізації планет.",
   },
   {
     id: 7,
     title: "Підсумкове заняття та проєктна робота",
-    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730238315/xzil8clpf6sfuu2idlef.jpg",
+    img: "http://res.cloudinary.com/platon1gg/image/upload/v1730307645/tpkyvrdoanni70obhdpc.jpg",
     desc: "Учні закріплять матеріали, презентуючи свої міні-проєкти на улюблені теми курсу, що розвине навички командної роботи і поглибить знання.",
   },
 ];
