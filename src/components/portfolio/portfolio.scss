@@ -7,10 +7,10 @@
     position: sticky;
     top: 0;
     left: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     color: orange;
-    font-size: 36px;
+    font-size: 30px;
 
     @include mobile {
       padding-top: calc(100vh - 100px);
@@ -45,6 +45,7 @@
       }
 
       .imageContainer {
+        margin-top: 10px;
         flex: 1;
         height: 50%;
 

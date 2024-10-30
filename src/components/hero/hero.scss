@@ -64,17 +64,18 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 200px;
 
     @include mobile {
       height: 50%;
       width: 100%;
       top: unset;
       bottom: 0;
+      right: 0;
     }
 
     img {
-      width: 100%;
+      width: 120%;
       height: 100%;
       object-fit: cover;
     }
