@@ -9,21 +9,21 @@ import Services from "./components/services/Services";
 const App = () => {
   return (
     <div>
-      <section id="Homepage">
+      <section id="Головна">
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
+      <section id="Про нас">
         <Parallax type="services" />
       </section>
       <section>
         <Services />
       </section>
-      <section id="Program">
+      <section id="Програма">
         <Parallax type="portfolio" />
       </section>
       <Portfolio />
-      <section id="Contact">
+      <section id="Контакти">
         <Contact />
       </section>
       {/* Framer Motion Crash Course */}

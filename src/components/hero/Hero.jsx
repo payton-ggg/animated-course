@@ -50,7 +50,12 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>YAROSLAVA STATSENKO</motion.h2>
           <motion.h1 variants={textVariants}>Введення до Астрофізики</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button
+              onClick={() =>
+                (location.href = "https://astrophysic.netlify.app/#Програма")
+              }
+              variants={textVariants}
+            >
               Подивитися программу
             </motion.button>
             {/* <motion.button variants={textVariants}>Contact Me</motion.button> */}
